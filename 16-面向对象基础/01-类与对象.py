@@ -4,6 +4,8 @@ class 类名():
     代码
     ......
 """
+
+
 class Washer():
     def wash(self):
         print('洗衣机洗衣服')
