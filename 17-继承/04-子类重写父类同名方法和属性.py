@@ -26,16 +26,11 @@ class Prentice(School, Master):
 
 
 daqiu = Prentice()
-
-# [独创煎饼果子配方]
-print(daqiu.kongfu)
-
-# 使用[独创煎饼果子配方]制作煎饼果子
-daqiu.make_cake()
+print(daqiu.kongfu)  # [独创煎饼果子配方]
+daqiu.make_cake()  # 使用[独创煎饼果子配方]制作煎饼果子
 
 # 类名.__mro__  查看继承顺序
-# (<class '__main__.Prentice'>, <class '__main__.School'>,
-# <class '__main__.Master'>, <class 'object'>)
+# (<class '__main__.Prentice'>, <class '__main__.School'>, <class '__main__.Master'>, <class 'object'>)
 print(Prentice.__mro__)
 
 """

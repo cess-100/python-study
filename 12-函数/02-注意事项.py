@@ -4,6 +4,7 @@
 def info_print():
     print('hello world')
 
+
 # 调用函数
 info_print()
 

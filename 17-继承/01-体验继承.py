@@ -26,7 +26,7 @@ class B(A):
 
 
 result = B()
-result.info_print() # 1
+result.info_print()  # 1
 
 """
 继承指的是多个类之间的所属关系，即⼦子类默认继承父类的所有属性和方法

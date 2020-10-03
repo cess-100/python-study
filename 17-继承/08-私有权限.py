@@ -56,12 +56,11 @@ class Tusun(Prentice):
 
 
 daqiu = Prentice()
-
 # daqiu.__info_print() 无法访问私有方法
 daqiu._Prentice__info_print()
 
-xiaoqiu = Tusun()
 
+xiaoqiu = Tusun()
 print(xiaoqiu.get_money())
 xiaoqiu.set_money(500)
 print(xiaoqiu.get_money())
@@ -70,7 +69,6 @@ print(xiaoqiu.get_money())
 print(xiaoqiu._Prentice__money)
 # xiaoqiu.__info_print() 无法访问私有方法
 xiaoqiu._Prentice__info_print()
-
 
 """
 注意：

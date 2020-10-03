@@ -20,13 +20,12 @@ class Washer:
         print('洗衣机的宽度是%d, 高度是%d' % (self.width, self.height))
 
 
-haier1 = Washer(10, 20) # 不传参数会报错
-print(haier1) # 这是海尔洗衣机的说明书
+haier1 = Washer(10, 20)  # 不传参数会报错
+print(haier1)  # 这是海尔洗衣机的说明书
 haier1.print_info()
 
 haier1 = Washer(30, 40)
 haier1.print_info()
-
 
 """
 注意：

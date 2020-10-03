@@ -6,6 +6,7 @@ def test(a):
     print(a)
     print(id(a))
 
+
 b = 100
 test(b)
 """

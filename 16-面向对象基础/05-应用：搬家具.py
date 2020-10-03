@@ -49,5 +49,3 @@ print(home)
 court = Furniture('篮球场', 600)
 home.add_furniture(court)
 print(home)
-
-

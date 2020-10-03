@@ -18,5 +18,5 @@ class Dog(object):
 
 
 wangcai = Dog()
-print(wangcai.get_tooth()) # 10
-print(Dog.get_tooth()) # 10
+print(wangcai.get_tooth())  # 10
+print(Dog.get_tooth())  # 10

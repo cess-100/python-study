@@ -5,10 +5,12 @@ def testB():
     print('这⾥里里是testB函数执⾏行行的代码...(省略略)...')
     print('---- testB end----')
 
+
 def testA():
     print('---- testA start----')
     testB()
     print('---- testA end----')
+
 
 testA()
 
@@ -18,12 +20,14 @@ testA()
 def print_line():
     print('-' * 20)
 
+
 # print_line()
 
 # 打印多条横线
 def print_lines(num):
     for i in range(num):
         print_line()
+
 
 print_lines(5)
 
@@ -33,6 +37,7 @@ print_lines(5)
 def sum(a, b, c):
     return a + b + c
 
+
 # result = sum(1, 2, 3)
 # print(result)
 
@@ -41,5 +46,6 @@ def average(a, b, c):
     sumResult = sum(a, b, c)
     return sumResult / 3
 
-result = average(1, 2 , 3)
+
+result = average(1, 2, 3)
 print(result)

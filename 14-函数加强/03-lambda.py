@@ -32,5 +32,5 @@ def add(a, b):
 result = add(1, 2)
 print(result)
 
-fn1 = lambda a, b: a + b
-print(fn1(1, 2))
+
+print((lambda a, b: a + b)(1, 2))

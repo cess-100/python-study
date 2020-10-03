@@ -7,7 +7,6 @@ if index > 0:
     postfix = old_name[index:]
     new_name = old_name[:index] + '[备份]' + postfix
 
-
     # 3. 备份文件写入数据
     old_file = open(old_name, 'rb')
     new_file = open(new_name, 'wb')

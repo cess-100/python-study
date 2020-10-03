@@ -11,11 +11,11 @@ del str1
 # del(list1)
 # print(list1) NameError: name 'list1' is not defined
 
-del(list1[0])
-print(list1) # [20, 30, 40, 50]
+del (list1[0])
+print(list1)  # [20, 30, 40, 50]
 
 # 元组不能删除元素
 # del tuple1[0] TypeError: 'tuple' object doesn't support item deletion
 
 del dict1['name']
-print(dict1) # {'age': 18}
+print(dict1)  # {'age': 18}

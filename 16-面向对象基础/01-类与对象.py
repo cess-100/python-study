@@ -1,12 +1,12 @@
-# 定义类
 """
+定义类
 class 类名():
     代码
     ......
 """
 
 
-class Washer():
+class Washer(object):
     def wash(self):
         print('洗衣机洗衣服')
         print(self)

@@ -17,6 +17,5 @@ print(daqiu.kongfu)
 daqiu.make_cake()
 
 # 类名.__mro__  查看继承顺序
-# (<class '__main__.Prentice'>, <class '__main__.Master'>,
-# <class 'object'>)
+# (<class '__main__.Prentice'>, <class '__main__.Master'>, <class 'object'>)
 print(Prentice.__mro__)

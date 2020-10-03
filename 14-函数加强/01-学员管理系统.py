@@ -99,7 +99,7 @@ def print_all():
     """显示所有学员信息"""
     print('id\tname\ttel')
     for i in info:
-        print('%s\t%s\t%s' %(i['id'], i['name'], i['tel']))
+        print('%s\t%s\t%s' % (i['id'], i['name'], i['tel']))
 
 
 # 系统功能需要循环使用，知道用户输入6，才推出系统

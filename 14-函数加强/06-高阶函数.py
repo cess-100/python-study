@@ -17,6 +17,7 @@ print(round(1.9))
 def add_num(a, b):
     return abs(a) + abs(b)
 
+
 result = add_num(-1, 2)
 print(result)
 
@@ -25,9 +26,9 @@ print(result)
 def add_num2(a, b, f):
     return f(a) + f(b)
 
+
 result2 = add_num2(-1, 2, abs)
 print(result2)
 
 result3 = add_num2(-1, 2, round)
 print(result3)
-

@@ -12,6 +12,7 @@ for i in range(10):
     list2.append(i)
 print(list2)  # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+
 # 推导式实现 ------------
 list3 = [i for i in range(10)]
 print(list3)  # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -25,9 +26,10 @@ print(list4)  # [0, 2, 4, 6, 8]
 # 方式二：
 list5 = []
 for i in range(10):
-    if i% 2 == 0:
+    if i % 2 == 0:
         list5.append(i)
 print(list5)
+
 # 方式三：
 list6 = [i for i in range(10) if i % 2 == 0]
 print(list6)
@@ -39,10 +41,9 @@ print(list6)
 list7 = []
 for i in range(1, 3):
     for j in range(3):
-      list7.append((i, j))
+        list7.append((i, j))
 print(list7)
+
 # 方式二：
 list8 = [(i, j) for i in range(1, 3) for j in range(3)]
 print(list8)
-
-

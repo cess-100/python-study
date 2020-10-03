@@ -15,7 +15,7 @@ os.mkdir('aa')
 os.rmdir('aa')
 
 # os.getcwd() 获取当前目录
-print(os.getcwd()) # D:\develop\PycharmProjects\code\15-文件操作
+print(os.getcwd())  # D:\develop\PycharmProjects\code\15-文件操作
 
 # os.chdir(目录) 改变默认目录
 # os.mkdir('aa')
@@ -25,5 +25,3 @@ print(os.getcwd()) # D:\develop\PycharmProjects\code\15-文件操作
 # os.listdir(目录) 获取目录列表
 print(os.listdir())
 # ['01-文件基本操作步骤.py', '02-访问模式.py', '03-读.py', '03test.txt', '04-seek.py', '05-文件备份.py', '06-⽂件和⽂件夹的操作.py']
-
-

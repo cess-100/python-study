@@ -12,14 +12,14 @@ f.close()
 
 
 # w
-f = open('1.txt', 'w') # 如果文件不存在，新建文件
-f.write('bbb') # 写入会覆盖原有内容
+f = open('1.txt', 'w')  # 如果文件不存在，新建文件
+f.write('bbb')  # 写入会覆盖原有内容
 f.close()
 
 
 # a
-f = open('2.txt', 'a') # 如果文件不存在，新建文件
-f.write('xyz') # 写入会不会覆盖原有内容，而是追加
+f = open('2.txt', 'a')  # 如果文件不存在，新建文件
+f.write('xyz')  # 写入会不会覆盖原有内容，而是追加
 f.close()
 
 

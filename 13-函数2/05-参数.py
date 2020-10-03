@@ -3,6 +3,7 @@
 def user_info(name, age, gender):
     print(f'您的名字是{name}, 年龄{age}, 性别{gender}')
 
+
 user_info('TOM', 20, '男')
 
 
@@ -11,6 +12,7 @@ user_info('TOM', 20, '男')
 # 但关键字参数之间不存在先后顺序
 def user_info2(name, age, gender):
     print(f'您的名字是{name}, 年龄{age}, 性别{gender}')
+
 
 user_info2('Rose', age=18, gender='女')
 user_info2('小明', gender='男', age=16)
@@ -22,7 +24,8 @@ user_info2('小明', gender='男', age=16)
 def user_info3(name, age, gender='男'):
     print(f'您的名字是{name}, 年龄{age}, 性别{gender}')
 
-user_info3('TOM', 20) # 您的名字是TOM, 年龄20, 性别男
+
+user_info3('TOM', 20)  # 您的名字是TOM, 年龄20, 性别男
 user_info3('Rose', 18, '女')
 
 
@@ -34,14 +37,17 @@ user_info3('Rose', 18, '女')
 def user_info4(*args):
     print(args)
 
-user_info4('TOM') # ('TOM',)
-user_info4('TOM', 18) # ('TOM', 18)
+
+user_info4('TOM')  # ('TOM',)
+user_info4('TOM', 18)  # ('TOM', 18)
+
 
 # 包裹关键字传递
 # 返回的是一个字典dict
 def user_info5(**kwargs):
     print(kwargs)
 
-user_info5(name='TOM', age=18, id=110) # {'name': 'TOM', 'age': 18, 'id': 110}
+
+user_info5(name='TOM', age=18, id=110)  # {'name': 'TOM', 'age': 18, 'id': 110}
 
 # 综上：⽆论是包裹位置传递还是包裹关键字传递，都是⼀个组包的过程

@@ -22,12 +22,8 @@ class Prentice(School, Master):
 
 
 daqiu = Prentice()
-
-# [黑马煎饼果子配方]
-print(daqiu.kongfu)
-
-# 使用[黑马煎饼果子配方]制作煎饼果子
-daqiu.make_cake()
+print(daqiu.kongfu)  # [黑马煎饼果子配方]
+daqiu.make_cake()  # 使用[黑马煎饼果子配方]制作煎饼果子
 
 """
 注意：当一个类有多个父类的时候，默认使用第一个父类的同名属性和方法

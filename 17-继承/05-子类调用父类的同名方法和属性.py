@@ -40,12 +40,9 @@ class Prentice(School, Master):
 
 
 daqiu = Prentice()
-
-# [独创煎饼果子配方]
-print(daqiu.kongfu)
+print(daqiu.kongfu)  # [独创煎饼果子配方]
 
 daqiu.make_cake()
 daqiu.make_master_cake()
 daqiu.make_school_cake()
 daqiu.make_cake()
-
