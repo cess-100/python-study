@@ -1,16 +1,16 @@
-str  = "success"
+str = "success"
 for i in str:
     if i == 'e':
         break
-    print(i)
+    print(i, end="")
 else:
     print("循环正常结束执行的代码")
 
 print()
-str  = "success"
+str = "success"
 for i in str:
     if i == 'e':
         continue
-    print(i)
+    print(i, end="")
 else:
     print("循环正常结束执行的代码")

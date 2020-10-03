@@ -6,7 +6,8 @@ else:
     循环正常结束之后要执行的代码
 """
 
-str  = "success"
+str = "success"
+
 for i in str:
     print(i)
 else:
