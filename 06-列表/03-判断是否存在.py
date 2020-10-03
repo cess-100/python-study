@@ -1,13 +1,13 @@
 name_list = ['tom', 'lily', 'rose']
 
 # in
-print('tom' in name_list) # True
-print('toms' in name_list) # False
+print('tom' in name_list)  # True
+print('toms' in name_list)  # False
 
 # not in
-print('tom' not in name_list) # False
-print('toms' not in name_list) # True
-
+print('tom' not in name_list)  # False
+print('toms' not in name_list)  # True
+# 以上字符串也可以使用
 
 # 需求：注册邮箱，根据输入判断账号是否存在
 name = input('请输入您的邮箱账号名：')
