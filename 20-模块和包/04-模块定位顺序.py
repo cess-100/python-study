@@ -31,10 +31,10 @@
 # 拓展：名字重复
 # 问题：import 模块名  是否担心功能名字重复 -- 不需要
 import time
-print(time) # <module 'time' (built-in)>
+
+print(time)  # <module 'time' (built-in)>
 
 time = 1
-print(time) # 1
+print(time)  # 1
 
 # 为什么变量也能覆盖模块？ -- 在python中数据是通过引用传递的
-

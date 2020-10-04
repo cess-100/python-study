@@ -10,16 +10,16 @@
 # 2. 调⽤用功能
     模块名.功能名()
 """
-
 import math
-print(math.sqrt(9))  # 3.0
+
+print(math.sqrt(9))
 
 
 """
 from 模块名 import 功能1, 功能2, 功能3...
 """
-
 from math import sqrt
+
 # 不再需要前面写模块名.方法
 print(sqrt(9))
 
@@ -27,6 +27,6 @@ print(sqrt(9))
 """
 from 模块名 import *
 """
-
 from math import *
+
 print(sqrt(9))

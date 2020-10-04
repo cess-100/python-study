@@ -2,6 +2,6 @@
 try:
     print(1)
 except Exception as e:
-    print(result)
+    print(e)
 else:
     print('我是else，是没有异常的时候执⾏行行的代码')
