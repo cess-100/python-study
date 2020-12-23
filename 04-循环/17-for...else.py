@@ -9,6 +9,6 @@ else:
 str = "success"
 
 for i in str:
-    print(i)
+    print(i, end="")
 else:
     print("循环正常结束执行的代码")
