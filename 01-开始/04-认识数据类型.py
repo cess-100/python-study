@@ -10,9 +10,6 @@ print(type(c))  # <class 'bool'> -- 布尔型
 d = '12345'
 print(type(d))  # <class 'str'> -- 字符串
 
-i = True
-print(type(i))  # <class 'bool'> -- 布尔型
-
 e = [10, 20, 30]
 print(type(e))  # <class 'list'> -- 列表
 
