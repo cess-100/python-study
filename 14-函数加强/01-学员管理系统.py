@@ -28,10 +28,7 @@ def add_info():
             return
 
     # 添加信息
-    info_dict = {}
-    info_dict['id'] = new_id
-    info_dict['name'] = new_name
-    info_dict['tel'] = new_tel
+    info_dict = {'id': new_id, 'name': new_name, 'tel': new_tel}
     info.append(info_dict)
 
     print(info)
