@@ -11,7 +11,7 @@ del str1
 # del(list1)
 # print(list1) NameError: name 'list1' is not defined
 
-del (list1[0])
+del(list1[0])
 print(list1)  # [20, 30, 40, 50]
 
 # 元组不能删除元素

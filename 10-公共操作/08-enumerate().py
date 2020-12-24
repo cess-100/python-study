@@ -14,3 +14,7 @@ print()
 # (1, 'a') (2, 'b') (3, 'c') (4, 'd') (5, 'e')
 for i in enumerate(list1, start=1):
     print(i, end=' ')
+print()
+
+for index, value in enumerate(list1, start=1):
+    print("%d, %s" % (index, value))
