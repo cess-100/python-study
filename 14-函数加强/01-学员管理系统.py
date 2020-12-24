@@ -52,7 +52,6 @@ def del_info():
 
 
 def modify_info():
-    pass
     """修改学员信息"""
     # 用户输入学员姓名
     modify_name = input('请输入要修改的学员姓名：')
@@ -73,7 +72,6 @@ def modify_info():
 
 
 def search_info():
-    pass
     """查询学员信息"""
     # 输入要查询的学员姓名
     search_name = input('请输入要查询学员的姓名')
@@ -128,7 +126,7 @@ while True:
     elif user_num == 6:
         # print("6.退出系统")
         exit_flag = input('确定要退出吗？yes or no')
-        if exit_flag == 'yes':
+        if exit_flag == 'yes' or exit_flag == 'y':
             break
     else:
         print("输入序号有误，请重新输入")
