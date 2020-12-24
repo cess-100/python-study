@@ -9,6 +9,7 @@ list1 = [1, 3, 2, 5, 4, 6]
 list1.reverse()
 print(list1)  # [6, 4, 5, 2, 3, 1]
 
+
 # sort() 排序：升序 和 降序
 # 列表序列.sort(key=None, reverse=False)
 list1.sort()
