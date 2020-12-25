@@ -13,10 +13,11 @@ python3偏移量没有使用b模式打开不能为负
 f = open('03test.txt', 'a+')
 
 # 改变读取开始位置
-# f.seek(2, 0)
-f.seek(0, 1)
+f.seek(2, 0)
+# f.seek(0, 1)
 print(f.read())
 
+# 另外 tell() 返回当前指针位置
+print(f.tell())
 f.close()
 
-# 另外 tell() 返回当前指针位置

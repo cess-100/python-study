@@ -3,7 +3,7 @@
 class Washer:
     def __init__(self, width, height):
         """定义初始化方法"""
-        # 添加实例睡醒
+        # 添加实例属性
         self.width = width
         self.height = height
 

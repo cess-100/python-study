@@ -42,8 +42,12 @@ bed = Furniture('双人床', 4)
 home.add_furniture(bed)
 print(home)
 
-sofa = Furniture('沙发', 8)
+sofa = Furniture('沙发', 6)
 home.add_furniture(sofa)
+print(home)
+
+wardrobe = Furniture('衣柜', 3)
+home.add_furniture(wardrobe)
 print(home)
 
 court = Furniture('篮球场', 600)

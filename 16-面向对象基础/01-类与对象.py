@@ -17,21 +17,21 @@ class Washer(object):
 haier1 = Washer()
 
 # 打印haier1对象
-# <__main__.Washer object at 0x000001A1D68AE780>
+# <__main__.Washer object at 0x000001EB6A7CA3C8>
 print(haier1)
 
 # 使用功能
 # 对象名.对象方法
 # 洗衣机洗衣服
-# <__main__.Washer object at 0x000002239A917438>
+# <__main__.Washer object at 0x000001EB6A7CA3C8>
 haier1.wash()
 
 
 haier2 = Washer()
 
-# <__main__.Washer object at 0x000001BB4CAEADA0>
+# <__main__.Washer object at 0x000001EB6A839E80>
 print(haier2)
 
 # 洗衣机洗衣服
-# <__main__.Washer object at 0x000001BB4CAEADA0>
+# <__main__.Washer object at 0x000001EB6A839E80>
 haier2.wash()
