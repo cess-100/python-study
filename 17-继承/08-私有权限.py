@@ -34,7 +34,7 @@ class Prentice(School, Master):
 
     # 定义私有方法
     def __info_print(self):
-        print(self.kongfu)
+        print(self.kongfu, end=" ")
         print(self.__money)
 
     def make_cake(self):
@@ -57,7 +57,7 @@ class Tusun(Prentice):
 
 daqiu = Prentice()
 # daqiu.__info_print() 无法访问私有方法
-daqiu._Prentice__info_print()
+daqiu._Prentice__info_print()  # 私有方法与属性实际上伪的，只是在将名称改为 _类名__方法名
 
 
 xiaoqiu = Tusun()

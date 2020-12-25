@@ -23,8 +23,11 @@ class Prentice(School, Master):
 
 daqiu = Prentice()
 print(daqiu.kongfu)  # [黑马煎饼果子配方]
-daqiu.make_cake()  # 使用[黑马煎饼果子配方]制作煎饼果子
+daqiu.make_cake()    # 使用[黑马煎饼果子配方]制作煎饼果子
 
 """
 注意：当一个类有多个父类的时候，默认使用第一个父类的同名属性和方法
 """
+print(Prentice.__mro__)
+# (<class '__main__.Prentice'>, <class '__main__.School'>, <class '__main__.Master'>, <class 'object'>)
+

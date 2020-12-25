@@ -27,12 +27,13 @@ class Prentice(School, Master):
 
 daqiu = Prentice()
 print(daqiu.kongfu)  # [独创煎饼果子配方]
-daqiu.make_cake()  # 使用[独创煎饼果子配方]制作煎饼果子
-
-# 类名.__mro__  查看继承顺序
-# (<class '__main__.Prentice'>, <class '__main__.School'>, <class '__main__.Master'>, <class 'object'>)
-print(Prentice.__mro__)
+daqiu.make_cake()    # 使用[独创煎饼果子配方]制作煎饼果子
 
 """
 子类和父类具有同名属性和方法，默认使用子类的同名属性和方法
 """
+
+# 类名.__mro__  查看继承顺序
+print(Prentice.__mro__)
+# (<class '__main__.Prentice'>, <class '__main__.School'>, <class '__main__.Master'>, <class 'object'>)
+
