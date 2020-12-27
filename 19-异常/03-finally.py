@@ -5,6 +5,6 @@ try:
 except Exception as e:
     f = open('test.txt', 'w')
 else:
-    print('没有异常，真开⼼心')
+    print('没有异常，真开心')
 finally:
     f.close()

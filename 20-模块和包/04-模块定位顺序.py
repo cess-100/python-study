@@ -18,7 +18,7 @@
 
 
 # 使用from 模块名 import 功能的时候，如果功能名字重复，调用到的是最后定义或导入的功能
-# from time import sleep
+from time import sleep
 #
 # 定义函数 sleep
 # def sleep(num):

@@ -4,4 +4,4 @@ try:
 except Exception as e:
     print(e)
 else:
-    print('我是else，是没有异常的时候执⾏行行的代码')
+    print('我是else，是没有异常的时候执行的代码')
